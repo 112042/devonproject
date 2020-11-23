@@ -15,7 +15,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECURE_SSL_REDIRECT = False
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +27,7 @@ SECRET_KEY = '%o$)yh*d+ee^*nhz*hb*9$49w+ki(7mhwa&0w5$0%(l0$8riac'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['devonproject.herokuapp.com']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
